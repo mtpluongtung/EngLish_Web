@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);
+}
+.delay-1{
+    animation-delay: 1s;
+}
+.delay-2{
+    animation-delay: 2s;
+}
+.delay-3{
+    animation-delay: 3s;
+}
+.delay-4{
+    animation-delay: 4s;
+}
+.delay-5{
+    animation-delay: 5s;
+}
+.delay-6{
+    animation-delay: 6s;
+}
+.delay-7{
+    animation-delay: 7s;
+}
+.delay-8{
+    animation-delay: 8s;
+}
+.delay-9{
+    animation-delay: 9s;
+}
+.delay-10{
+    animation-delay: 10s;
+}
+.showtop{
+    animation: showtop 0.8s ease-in-out 1 forwards;
+}
+@keyframes showtop {
+    from{
+        opacity: 0;
+        transform: translate(0,50px);
+    }
+    from{
+        opacity: 0;
+        transform: translate(0,0);
+    }
+}

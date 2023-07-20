@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Login">
+        <img src="https://thumbs.gfycat.com/AmpleAcclaimedKawala-max-1mb.gif" alt="">
+        <div class="form">
+           <form  (ngSubmit)="onSubmit()">
+            <div class="materialContainer">
+
+
+               <div class="box">
+            
+                  <div class="title showtop delay-7">LOGIN</div>
+            
+                  <div class="input showtop delay-8">
+                    
+                     <input type="text" name="username"  placeholder="UserName" [(ngModel)]="loginForm.Username" >
+                     <span class="spin"></span>
+                  </div>
+            
+                  <div class="input showtop delay-9">
+                     
+                     <input type="password" name="password"  placeholder="Password" [(ngModel)]="loginForm.PassWord">
+                     <span class="spin"></span>
+                  </div>
+            
+                  <div class="button login showtop delay-10">
+                     <button class="delay-10" type="submit" ><span>GO</span> <i class="fa fa-check"></i></button>
+                  </div>
+            
+                  <a href="" class="pass-forgot showtop delay-10">Forgot your password?</a>
+            
+               </div>
+            </div>
+           </form>
+        </div>
+    </div>
+    
+</body>
+</html>
