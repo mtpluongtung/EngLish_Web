@@ -1,6 +1,10 @@
-body{
-    background-image: url(https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png);
+@font-face {
+    font-family: 'YAEfHGJFE5c-0';
+    src: url(/src/assets/fonts/226618464330c99b64fcaf1d7142c1e7.woff2);
+    font-style: normal;
+    font-weight: 400;
 }
+
 .delay-1{
     animation-delay: 1s;
 }

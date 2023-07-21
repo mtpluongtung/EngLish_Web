@@ -1,43 +1,44 @@
-.delay-1{
+
+.delay-1 {
     animation-delay: 1s;
 }
-.delay-2{
+.delay-2 {
     animation-delay: 2s;
 }
-.delay-3{
+.delay-3 {
     animation-delay: 3s;
 }
-.delay-4{
+.delay-4 {
     animation-delay: 4s;
 }
-.delay-5{
+.delay-5 {
     animation-delay: 5s;
 }
-.delay-6{
+.delay-6 {
     animation-delay: 6s;
 }
-.delay-7{
+.delay-7 {
     animation-delay: 7s;
 }
-.delay-8{
+.delay-8 {
     animation-delay: 8s;
 }
-.delay-9{
+.delay-9 {
     animation-delay: 9s;
 }
-.delay-10{
+.delay-10 {
     animation-delay: 10s;
 }
-.showtop{
+.showtop  {
     animation: showtop 0.8s ease-in-out 1 forwards;
 }
 @keyframes showtop {
-    from{
+    0%{
         opacity: 0;
-        transform: translate(0,50px);
+        transform: translate(0,150px);
     }
-    from{
-        opacity: 0;
+    100%{
+        opacity: 100;
         transform: translate(0,0);
     }
 }

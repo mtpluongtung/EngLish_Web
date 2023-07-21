@@ -42,8 +42,7 @@ export class AuthenticationService {
         }))
     }
     logout(){
-        console.log("jjjjj")
-        this.router.navigate(['/login']);
+       // this.router.navigate(['/login']);
         this.stopRefreshTokenTimer();
         localStorage.removeItem('currentUser');
         this.loggedIn.next(false);

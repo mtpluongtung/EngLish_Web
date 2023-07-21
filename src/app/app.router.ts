@@ -16,6 +16,6 @@ export const AppRoutes:Routes=[
     {
         path:'home',
         loadChildren:()=>import('./Component/home/home.module').then(x=>x.HomeModule),
-        canActivate:[AutheGuard]
+       
     }
 ];

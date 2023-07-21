@@ -16,7 +16,7 @@ export class AppComponent {
   }
 
   onActivate(componentRef: any){
-
+      
   }
 }
 
