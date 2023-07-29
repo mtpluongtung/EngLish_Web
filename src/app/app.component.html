@@ -1,6 +1,10 @@
-
 <div class="body-wrapper">
-  <div class="container">
+  <div class="sticky-wrapper">
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+      <app-nav></app-nav>
+    </header>
+  </div>
+  <div class="">
     <router-outlet
     (activate)='onActivate($event)'>
   </router-outlet>
